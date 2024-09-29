@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Parth Nandre's Resume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            display: flex;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .left-section {
+            width: 30%;
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+        }
+        .profile-image {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            display: block;
+        }
+        .contact-info, .skills, .languages {
+            margin-bottom: 20px;
+        }
+        h3 {
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 5px;
+            color: #fff;
+            margin-bottom: 10px;
+        }
+        .right-section {
+            width: 70%;
+            padding: 20px;
+        }
+        .right-section h1 {
+            color: #2c3e50;
+        }
+        .right-section h2 {
+            color: #34495e;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 10px;
+        }
+        .experience, .projects, .education {
+            margin-bottom: 30px;
+        }
+        ul {
+            padding: 0;
+            list-style-type: none;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        .progress-bar {
+            background-color: #e0e0e0;
+            border-radius: 10px;
+            position: relative;
+            height: 10px;
+            margin-bottom: 10px;
+        }
+        .progress {
+            background-color: #1abc9c;
+            height: 100%;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Left section -->
+        <div class="left-section">
+            <img src="pfp.jpg" alt="Profile Image" class="profile-image">
+            <div class="contact-info">
+                <h3>Contact</h3>
+                <p>Email: parthnandre08@gmail.com</p>
+                <p>Phone: 8007581204</p>
+                <p>Location: Dhule, India</p>
+                <p>LinkedIn: <a href="https://linkedin.com/in/yourusername" style="color: white;" target="_blank">linkedin.com/in/yourusername</a></p>
+            </div>
+            <div class="skills">
+                <h3>Skills</h3>
+                <p>C</p>
+                <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+                <p>Python</p>
+                <div class="progress-bar"><div class="progress" style="width: 70%;"></div></div>
+                <p>MATLAB</p>
+                <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+                <p>SCILAB</p>
+                <div class="progress-bar"><div class="progress" style="width: 60%;"></div></div>
+            </div>
+            <div class="languages">
+                <h3>Languages</h3>
+                <p>English</p>
+                <p>German</p>
+                <p>Hindi</p>
+                <p>Marathi</p>
+            </div>
+        </div>
+
+        <!-- Right section -->
+        <div class="right-section">
+            <h1>Parth Mahesh Nandre</h1>
+            <h2>Electrical Engineering Student</h2>
+            
+            <section class="summary">
+                <h2>Summary</h2>
+                <p>B.Tech student with experience in MATLAB, front-end and back-end web development, and a passion for electrical engineering. Organized and eager to learn new technologies.</p>
+            </section>
+
+            <section class="experience">
+                <h2>Experience</h2>
+                <ul>
+                    <li><strong>MATLAB Mathworks Intern </strong> - Focus on data processing, code optimization, and core programming concepts.</li>
+                    <li><strong>CodeTech Solutions Intern (Current)</strong> - Learning basics of HTML, CSS, Node.js, and Express.</li>
+                </ul>
+            </section>
+
+            <section class="projects">
+                <h2>Projects</h2>
+                <ul>
+                    <li><strong>Data Optimization in MATLAB</strong> - Developed algorithms to optimize code performance in MATLAB.</li>
+                    <li><strong>Basic Web Application</strong> - Built front-end (HTML/CSS) and back-end (Node.js, Express) components for a simple web app.</li>
+                </ul>
+            </section>
+
+            <section class="education">
+                <h2>Education</h2>
+                <ul>
+                    <li><strong>B.Tech in Electrical Engineering</strong> - S.V.K.M IOT Dhule (DBATU University) - 6.8/10</li>
+                    <li><strong>HSC</strong> - Mahajan Jr. College - 72.17%</li>
+                    <li><strong>SSC</strong> - S.T.T.K. Mahajan Highschool - 83.60%</li>
+                </ul>
+            </section>
+        </div>
+    </div>
+
+</body>
+</html>
