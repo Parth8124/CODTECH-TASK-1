@@ -20,3 +20,4 @@ Contact Form: Includes a contact form to allow potential clients or collaborator
 Technologies Used
 Frontend: HTML5, CSS3, JavaScript
 Backend: Express.js
+![Screenshot 2024-09-29 160315](https://github.com/user-attachments/assets/92aeeb9f-d999-486e-96ea-48f2548fec5e)
